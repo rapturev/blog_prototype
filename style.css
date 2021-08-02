@@ -1,0 +1,33 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 220px 43% 43%;
+    grid-template-rows: 50em;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.main {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+}
+
+.message-box {
+    background-color: #ccc;
+    margin-top: 100px;
+    height: 400px;
+}
+
+.chapter-box {
+    margin-top: 25px;
+    height: 650px;
+}
+
+.chapter {
+    border: solid 22px #ccc;
+    margin-left: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    height: 200px;
+}
